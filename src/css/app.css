@@ -1,0 +1,18 @@
+@import 'recipe-list.css';
+@import-normalize;
+@import 'recipe.css';
+@import 'ingredients.css';
+@import 'recipe-edit.css';
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+

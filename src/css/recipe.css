@@ -1,0 +1,48 @@
+.btn--danger{
+    background-color: hsl(0, 100%, 50%);
+}
+
+.btn--danger:hover {
+    background-color: hsl(0, 100%, 30%);
+}
+
+.recipe_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recipe_title {
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.recipe{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.recipe_row {
+    padding-top: 10px;
+}
+
+.recipe_label{
+  margin-right: 5px;
+  font-weight: 550;
+
+}
+
+.recipe_value{
+font-weight: 300;
+}
+
+.recipe_value--indent{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.recipe_instructions{
+    white-space:pre-wrap ;
+}

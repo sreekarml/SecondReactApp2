@@ -1,0 +1,33 @@
+.recipe-list{
+        border-right: 1px solid black;
+        height:100%;
+        width: 50%;
+}
+
+.recipe-list__add-recipe-btn-container{
+    text-align: center;
+}
+
+.btn{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.btn--primary {
+    color: white;
+    background-color: hsl(200, 100%, 50%);
+}
+
+.btn--primary:hover{
+    background-color: hsl(200, 100%, 30%);
+}
+
+.mg-1 {
+    margin-right: 5px;
+} 
